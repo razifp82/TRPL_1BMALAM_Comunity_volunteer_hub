@@ -1,0 +1,13 @@
+<script type='text/javascript'>
+	setTimeout(function () { 
+		swal.fire({
+			
+			title               : '$judul',
+			text                :  '$notifikasi',
+			//footer              :  '$time',
+			icon                : '$tipe',
+			timer               : $timer,
+			showConfirmButton   : true
+		});  
+	},10); 
+	</script>
